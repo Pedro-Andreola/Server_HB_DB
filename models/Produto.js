@@ -16,6 +16,6 @@ const Produto = db.define('produto', {
     updatedAt:false 
 })
 
-Produto.sync({force:true})
+// Produto.sync({force:true})
 
 module.exports = Produto

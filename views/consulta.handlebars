@@ -1,0 +1,21 @@
+<link rel="stylesheet" href="/css/consulta.css">
+<h1 class="title">Consulta de Produtos</h1>
+<br>
+<table>
+    <thead>
+        <th>Código</th>
+        <th>Nome</th>
+        <th>Quantidade</th>
+        <th>Preço</th>
+    </thead>
+    <tbody>
+        {{#each valores}}
+        <tr>
+            <td>{{this.id}}</td>
+            <td>{{this.nome}}</td>
+            <td>{{this.qtde}}</td>
+            <td>{{this.preco}}</td>
+        </tr>
+        {{/each}}
+    </tbody>
+</table>
